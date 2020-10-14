@@ -1,6 +1,6 @@
 class Crewmate:
     
-    def _init_(self, name, color, do_task, sabotage, vent):
+    def _init_(self, name, color):
         self.name = name
         self.color = color
         self.do_task = True
@@ -28,7 +28,7 @@ class Crewmate:
 
 class Impostor:
 
-    def _init_(self, name, color, do_task, sabotage, vent):
+    def _init_(self, name, color):
         self.name = name
         self.color = color
         self.do_task = False
